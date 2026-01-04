@@ -27,8 +27,6 @@ const AppRoutes = () => {
                 <Route path="/request-form" element={<NewRequestForm />} />
                 <Route path="/request-list" element={<RequestsPage />} />
                 <Route path="/request/edit/:requestId" element={<EditRequestForm />} />
-                {/* <Route path="/requests/:requestId" element={<RequestsPage />} />  */}
-                {/* <Route path="/requests" element={<NewRequestPage />}/> */}
 
                 <Route path="*" element={<NotFoundPage />} />
 
